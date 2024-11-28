@@ -1,0 +1,19 @@
+name: EasyRuletka
+version: '1.16'
+main: skelen.easyRuletka.EasyRuletka
+api-version: '1.20'
+prefix: EasyRuleta
+authors: [ LordSkelen18 ]
+description: EasyRuleta plugin for random number roulette.
+
+commands:
+  ruleta:
+    description: Main command for the EasyRuleta plugin.
+    usage: /ruleta <spin|set|blacklist|whitelist|numbers|time>
+    permission: easyruleta.use
+    permission-message: You do not have permission to use this command.
+
+permissions:
+  easyruleta.use:
+    description: Allows the use of the /ruleta command.
+    default: op
